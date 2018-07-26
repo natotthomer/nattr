@@ -1,0 +1,6 @@
+.edit-profile-button {
+  @extend .round-button;
+  border: 0.1rem solid $true-black;
+  padding: 0.6rem 2rem;
+  color: $grey;
+}

@@ -1,0 +1,54 @@
+.feed-item__container {
+  background: $true-white;
+
+  &:hover {
+    background: $extremely-light-grey;
+  }
+}
+
+.feed-item {
+  padding: 2rem;
+  border-bottom: 0.1rem solid $very-light-grey;
+  display: flex;
+
+  &:hover {
+    background: $baby-blue-transparent;
+  }
+}
+
+.feed-item__profile-container {
+  height: 4.8rem;
+  width: 4.8rem;
+  padding-right: 1rem;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.feed_item__username-container {
+  padding-right: 0.6rem;
+
+  &:hover {
+    &:first-child {
+      text-decoration: underline;
+    }
+  }
+}
+
+.feed-item__visible-name {
+  font-weight: bold;
+  padding-right: 0.6rem;
+}
+
+.feed-item__username {
+  color: $slate-grey;
+}
+
+.feed-item__published-at {
+  &:before {
+    content: "\00b7"
+  }
+}

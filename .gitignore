@@ -1,0 +1,10 @@
+venv/*
+.git
+*.pyc
+node_modules
+.DS_Store
+*.pem
+nattr/dist/*
+webpack-stats.json
+media_cdn/
+nattr/settings_secret.py

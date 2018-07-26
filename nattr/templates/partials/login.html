@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load render_bundle from webpack_loader %}
+
+
+{% block content %}
+
+<div id='login'>
+  this is the login
+</div>
+
+{% render_bundle 'nattr' 'js' %}
+
+{% endblock %}

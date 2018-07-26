@@ -1,0 +1,12 @@
+.button {
+  @include transition-opacity;
+  @include pointer;
+  font-weight: bold;
+  color: pink;
+}
+
+.round-button {
+  @extend .button;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}

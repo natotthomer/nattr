@@ -1,0 +1,43 @@
+.app-header {
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid rgba(0,0,0,0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $true-white;
+}
+
+.app-header__main {
+  @include section-container;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header__section {
+  display: flex;
+  align-items: center;
+}
+
+.app-header__section-link {
+  @include transition-opacity;
+  @include pointer;
+  font-weight: bold;
+  height: 4.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid $baby-blue;
+  color: $baby-blue;
+}
+
+.app-header__section-button {
+  @extend .round-button;
+  height: 3rem;
+  display: flex;
+  background: $baby-blue;
+  color: $true-white;
+  align-items: center;
+}

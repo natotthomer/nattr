@@ -1,0 +1,3 @@
+export const RECEIVE_POST = 'RECEIVE_POST'
+export const RECEIVE_USER_POSTS = 'RECEIVE_USER_POSTS'
+export const REMOVE_POST = 'REMOVE_POST'

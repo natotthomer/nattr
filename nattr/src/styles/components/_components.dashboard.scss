@@ -1,0 +1,48 @@
+.dashboard {
+
+}
+
+.dashboard-section {
+}
+
+.dashboard-left {
+  // float: left;
+}
+
+.dashboard-right {
+  float: right;
+}
+
+.dashboard__splash {
+  height: 9.5rem;
+  background: $baby-blue;
+}
+
+.dashboard__content {
+  background: white;
+  width: 29rem;
+  padding: 1rem;
+}
+
+.dashboard__content--top {
+  display: flex;
+}
+
+.dashboard__profile-pic {
+  height: 7.2rem;
+  width: 7.2rem;
+  border: 0.3rem solid $true-white;
+  border-radius: 4rem;
+  margin-top: -4.5rem;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.dashboard_names {
+  display: flex;
+  flex-direction: column;
+}

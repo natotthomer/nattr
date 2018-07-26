@@ -1,0 +1,12 @@
+var WebpackStripLoader = require('strip-loader')
+var devConfig = require('./webpack.config.js')
+
+var stripLoader = {
+  test: [/\.js$/, /\.jsx$/, /\.es6$/],
+  exclude: /node_modules/,
+  loader: WebpackStripLoader.loader('console.log')
+}
+
+devConfig.module.rules.push(stripLoader)
+
+module.exports = devConfig

@@ -1,0 +1,48 @@
+$font-path: '../assets/fonts';
+
+// Helvetica Neue
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('#{$font-path}/helvetica-neue/helvetica-neue.ttf')
+       format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('#{$font-path}/helvetica-neue/helvetica-neue-light.otf')
+       format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('#{$font-path}/helvetica-neue/helvetica-neue-bold.ttf')
+       format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('#{$font-path}/helvetica-neue/helvetica-neue-italic.otf')
+       format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Molengo
+
+@font-face {
+  font-family: 'Molengo';
+  src: url('#{$font-path}/molengo/Molengo-Regular.ttf')
+       format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$sans-serif-font-stack: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$molengo-font-stack: 'Molengo', 'Helvetica', 'Arial', sans-serif !default;

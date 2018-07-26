@@ -1,0 +1,16 @@
+.app-body {
+  height: 100%;
+  min-height: 100vh;
+  background: $very-light-grey;
+}
+
+.app-body__main {
+  @include section-container;
+  padding: 4.7rem 1.4rem 1.5rem;
+
+  &:before {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
+}

@@ -1,0 +1,22 @@
+$side-column-width: 29rem;
+$center-column-width: 52rem;
+
+.columns-container {
+  @include flexbox;
+  justify-content: center;
+}
+
+.columns--left {
+  margin-right: 2rem;
+  width: 29rem;
+}
+
+.columns--right {
+  width: 29rem;
+}
+
+.columns--center {
+  margin-right: 2rem;
+  align-self: center;
+  width: 52rem;
+}
